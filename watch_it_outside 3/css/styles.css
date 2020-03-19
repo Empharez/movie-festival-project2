@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans+TC&display=swap');
+
+body{
+	background-color: black;
+	color: white;
+	/* the first background color #2E2C2C*/
+}
+
+.header_main{
+	background-color: #E50914;
+}
+.navbar{
+	text-transform: uppercase;
+	font-weight: 700px;
+	font-size: 1rem;
+	letter-spacing: .1rem;
+	
+	}
+.navbar-brand{
+	padding-right: 10px;
+	font-weight: 800px;
+	letter-spacing:.3rem;
+}.navbar-nav li{
+	padding-right: 1rem;
+	padding-left: 1rem;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+}
+
+.carousel-inner img {
+            width: 100%;
+            height: 100%;
+}
+
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+		color: black;
+		/*#2E2C2C*/
+		}
+
+
+.btn{
+	background-color: #E50914;
+	color: white;
+	font-weight: 500%;
+	padding: 15px 45px;
+	margin: 50px;
+	border-radius: 20px;
+}
+
+.container {
+	padding: 20px;
+	position: relative;
+}
+
+.container .movies{
+	margin-top: 50px;
+}
+ 
+.carousel-caption {
+	align-items: left;
+	
+	
+}
+		
+.carousel-caption h1 {
+    font-size: 300%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #ffffff;
+	
+}
+		
+.carousel-caption h3,em{
+    font-size: 200%;
+    font-weight: 500px;
+    text-shadow: 1px 1px 10px #ffffff;
+    padding-bottom: 1rem;
+}
+.btn-outline-light:hover {
+    background-color: black;  
+	/*#20B2AA*/
+}		
+
+.card{
+	padding: 10px;
+	margin: 5px;
+	margin-left:5px;
+
+}
+
+.col-12{
+	padding: 20px;
+
+}
+
+.card-body{
+	background-color: #E50914;
+	color: #fff;
+}
+
+.card-img-top{
+	height: 400px;
+	width: 100%;
+}
+
+hr{
+	background-color: white;
+}
+.bg-light{
+	padding-top: .8rem;
+	background-color: white;
+
+}
+
+.signup_container{
+	position: relative;
+	height: 100vh;
+
+
+}
+
+.signup_container h3{
+	text-align: center;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.signup_body{
+	position: absolute;
+	display: block;
+	width: 550px;
+	height: 550px;
+	background: #E50914;
+	border-radius: 20px;
+	padding: 20px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+img{
+	opacity: 0.8;
+}
+
+.location {
+	
+}
+.form-body{
+	padding: 0 0 10px 0;
+}
+
+form {
+	position: relative;
+	height: 100%;
+	display: grid;
+	grid-template-rows: 40px repeat(4, 1fr);
+}
+
+label{
+	text-transform: uppercase;
+}
+
+input{
+	display: block;
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	border: 1px solid #b31f26;
+	padding: 0 10px;
+	text-transform: capitalize;
+
+}
+
+::placeholder{
+	color: black;
+}
+
+input:hover{
+	border: 1px solid #000;
+}
+
+.register_btn{
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	text-justify: center;
+	align-self: flex-end;
+	justify-self: center;
+	border: none;
+	height: 50px;
+	width: 50%;
+	background-color: white; /*#E50914*/
+	color: black;
+	border-radius: 5px;
+	bottom: 10px;
+	transition: .6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.register_btn:hover{
+	background-color: #fff;
+	color: #E50914;
+	border: 1px solid #000;
+}
+
+.footer-link{
+	color: #2E2C2C;
+}
+
+.footer-link:hover{
+	color: #E50914;
+}
+button{
+	border-radius:10px;
+	padding:10px;
+	margin: 10px;
+	background-color: red;
+}
+
+.btn:hover{
+   	background-color: white;
+   	 color: #E50914;
+   }
+
+.display-2.news{
+	color: #E50914;
+}
+
+.partner-header {
+    text-transform: uppercase;
+	margin-top: 1em;
+}
+
+.partner--img {
+    max-width: 200px!important;
+    max-height: 200px!important;
+    height: auto!important;
+    display: inline;
+	padding: 10px 10px;
+}
+.movie-info{
+	;
+}
+
+
+
+/*media queries*/
+
+
+@media(max-width: 768px){
+   	
+	 .carousel-caption{
+	 		padding: 5px;
+	 		margin: 5px;
+	 	}
+   	.carousel-caption h1 {
+  	font-size: 20px;
+  }
+   
+   .btn{
+   	padding:5px;
+   	margin-left: :4px;
+   	background-color: red;
+   	border-radius: 8px;
+   }
+   
+   
+   img{
+   	opacity: 0.7;
+   }
+
+    .carousel-caption h3{ font-size: 20px;
+
+   }
+
+  .btn:hover{
+   	background-color: white;
+   	color:red;
+   }
+   .display-2.news{
+		padding: 20px;
+		margin-top: 20px;
+		padding-top: 10px;
+		text-align: center;
+		background-color: black;
+		font-size: 1em;
+	}
+	.display-4.news{
+		padding: 20px;
+		margin-top: 10px;
+		padding-top: 1px;
+		text-align: center;
+		background-color: black;
+		color: white;
+	font-size: 1em;
+	}
+	
+	.partner--img{
+    line-height: 56px;
+    height: 56px;
+    width: 100px;
+    padding: 0;
+}
+.partner-header{
+	font-size: 20px;
+}
+
+   
+
+@media(max-width: 640px) {
+	.signup_container h3{
+		font-size: 18px;
+	}
+
+	.carousel-caption {
+		padding-top: 20px;
+		margin-top: 100px;
+	align-items: left;
+	}
+button{
+	padding:0px;
+	margin: 0px;
+	background-color: white;
+}
+	.signup_body{
+		width: 300px;
+		height: 450px;
+		border-radius: 10px;
+		padding: 10px;
+	}
+
+	.display-2{
+		padding: 20px;
+		margin-top: 200px;
+		padding-top: 10px;
+		text-align: center;
+		background-color: black;
+		font-size: 1em;
+	}
+	.display-2.news{
+		padding: 20px;
+		margin-top: 20px;
+		padding-top: 10px;
+		text-align: center;
+		background-color: black;
+		font-size: 0.8em;
+	}
+	.display-4.news{
+		padding: 20px;
+		margin-top: 10px;
+		padding-top: 1px;
+		text-align: center;
+		background-color: black;
+		color: white;
+	font-size: 0.6em;
+	}
+	.carousel-caption p{
+		font-size:1em;
+		margin: 10px;
+	}
+
+	input {
+		height: 40px;
+		border-radius: 5px;
+		padding: 0 5px;
+		font-size: 14px;
+	}
+
+	.register_btn{
+		font-size: 14px;
+		height: 40px;
+	}
+	
+  
+  .carousel-caption h1 {
+  	font-size: 20px;
+  }
+   
+   .btn{
+   	padding:5px;
+   	margin:5px;
+   	background-color: red;
+   	border-radius: 8px;
+   }
+   img{
+   	opacity: 0.5;
+   }
+
+    .carousel-caption h3,em{ font-size: 20px;
+
+   }
+
+  .btn:hover{
+   	background-color: white;
+   	color:red;
+   }
+
+.partner--img{
+    line-height: 56px;
+    height: 56px;
+    width: 100px;
+    padding: 0;
+}
+.partner-header{
+	font-size: 20px;
+}
+
+}
+
+   @media(max-width: 860px){
+   	
+	 	.carousel-caption{
+	 		padding: 2px;
+	 		margin: 2px;
+	 	}
+   	.carousel-caption h1 {
+  	font-size: 10px;
+  }
+   
+   .btn{
+   	padding:3px;
+   	margin-left: 2px;
+   	background-color: red;
+   	border-radius: 4px;
+	font-size: 5px;
+   }
+   
+   img{
+   	opacity: 0.5;
+   }
+
+	.carousel-caption h3,em
+	{ 
+		font-size: 7px;
+
+   }
+
+  .btn:hover{
+   	background-color: white;
+   	color:red;
+   }
+   .card{
+	padding: 10px;
+	margin: 55px;
+	margin-left:55px;
+   }
+}
+.partner--img{
+    line-height: 56px;
+    height: 56px;
+    width: 100px;
+    padding: 0;
+}
+.partner-header{
+	font-size: 20px;
+}
